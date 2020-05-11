@@ -9,7 +9,7 @@ class _ShowsState extends State<Shows> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.white,
+      backgroundColor: Theme.of(context).backgroundColor,
       body: Container(),
     );
   }

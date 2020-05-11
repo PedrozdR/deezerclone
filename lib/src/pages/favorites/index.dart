@@ -8,6 +8,9 @@ class Favorites extends StatefulWidget {
 class _FavoritesState extends State<Favorites> {
   @override
   Widget build(BuildContext context) {
-    return Container();
+    return Scaffold(
+      backgroundColor: Theme.of(context).backgroundColor,
+      body: Container(),
+    );
   }
 }

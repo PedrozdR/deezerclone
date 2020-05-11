@@ -15,6 +15,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
         primarySwatch: Colors.blue,
+        backgroundColor: Color(0xff121212)
       ),
       home: Main(),
     );
@@ -67,7 +68,7 @@ class _MainState extends State<Main> {
           ),
           BottomNavigationBarItem(
             title: Text("Favoritos"),
-            icon: Icon(Icons.favorite),
+            icon: Icon(Icons.favorite_border),
           ),
           BottomNavigationBarItem(
             title: Text("Busca"),
